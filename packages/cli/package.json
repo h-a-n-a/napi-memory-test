@@ -1,0 +1,8 @@
+{
+  "name": "napi-minimal-cli",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "binding": "workspace:*"
+  }
+}
