@@ -12,5 +12,5 @@ $ pnpm run build
 
 ```
 $ cd packages/cli
-$ node ./bin.js
+$ node --expose-gc ./bin.js
 ```

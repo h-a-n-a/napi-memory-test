@@ -45,7 +45,7 @@ async function iter() {
     run()
     console.log(`${process.memoryUsage().rss / 1024 / 1024} MB`)
     if (group-- === 0) {
-      // gc()
+      gc()
       group = 100
       await sleep(500)
     }
